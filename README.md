@@ -71,3 +71,6 @@ Run `data_3DBB.py`
 
 Run `data_3DPC.py`
 ![](./data_3DPC/testing/000001.png)
+
+## Reference
+[[1] Geiger, A., Lenz, P., Stiller, C., & Urtasun, R. (2013). Vision meets robotics: The kitti dataset. The International Journal of Robotics Research, 32(11), 1231-1237.](https://doi.org/10.1177/0278364913491297)
