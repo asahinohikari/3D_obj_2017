@@ -13,11 +13,9 @@ opencv-python = 4.6.0
 mayavi = 4.7.3
 Pillow = 8.4.0
 ```
-## Dataset
-[KITTI website](https://www.cvlibs.net/datasets/kitti/eval_object.php?obj_benchmark=3d)
 
 ## Project Structure
-The file structure is as follows
+The file structure is as follows: 
 
 ```
 3D_obj_2017/
@@ -49,13 +47,22 @@ The file structure is as follows
 
 ```
 
+## Dataset
+Complete data can be found on [KITTI website](https://www.cvlibs.net/datasets/kitti/eval_object.php?obj_benchmark=3d).
+Here we only need the following data:
+[Download](https://s3.eu-central-1.amazonaws.com/avg-kitti/data_object_image_2.zip) left color images of object data set (12 GB)
+[Download](https://s3.eu-central-1.amazonaws.com/avg-kitti/data_object_image_2.zip) Velodyne point clouds, if you want to use laser information (29 GB)
+[Download](https://s3.eu-central-1.amazonaws.com/avg-kitti/data_object_calib.zip) camera calibration matrices of object data set (16 MB)
+[Download](https://s3.eu-central-1.amazonaws.com/avg-kitti/data_object_label_2.zip) training labels of object data set (5 MB)
+
+## Quick Demo
+
 | File                   | Description                                                                                      |
 | ---------------------- | ------------------------------------------------------------------------------------------------ |
 | `data_velo2cam.py`     | LiDAR point cloud to camera image projection and visualisation.                                  |
 | `data_3DBB.py`         | 3D object annotation of the image.                                                               |
 | `data_3DPC.py`         | LiDAR point cloud visualization                                                                  |
 
-## Quick Demo
 Run `data_velo2cam.py`
 ![](./data_velo2cam/testing/000001.png)
 
