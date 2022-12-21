@@ -2,7 +2,7 @@
 
 ## Introduction
 KITTI dataset — LiDAR point cloud visualization | LiDAR to image projection | 3D BBox labelling on image
-
+### This program is for learning purposes only.
 
 ## Dependencies
 Dependencies `numpy`, `matplotlib`, `cv2`, `mayavi` and 'PIL' need to be installed to run the program.
@@ -74,3 +74,6 @@ Run `data_3DPC.py`
 
 ## Reference
 [[1] Geiger, A., Lenz, P., Stiller, C., & Urtasun, R. (2013). Vision meets robotics: The kitti dataset. The International Journal of Robotics Research, 32(11), 1231-1237.](https://doi.org/10.1177/0278364913491297)
+
+## Author
+Xi Chen (X.CHEN-46@student.tudelft.nl)
