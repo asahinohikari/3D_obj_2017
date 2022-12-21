@@ -13,8 +13,11 @@ opencv-python = 4.6.0
 mayavi = 4.7.3
 Pillow = 8.4.0
 ```
+## Dataset
+[KITTI website](https://www.cvlibs.net/datasets/kitti/eval_object.php?obj_benchmark=3d)
 
 ## Project Structure
+The file structure is as follows
 
 ```
 3D_obj_2017/
